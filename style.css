@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #070346;
+    color: aliceblue;
+}
+
+.container{
+    width: 70vw;
+    background-color: #04012f;
+    padding: 20px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.topic{
+    text-align: center;
+    padding: 20px;
+}
+
+.topic img{
+    position: relative;
+    width: 10rem;
+    margin-top: 50px;
+}
+#activity-container{
+    text-align: center;
+    margin: 20px 0;
+}
+
+#activity-container h1{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.new-activity-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+button{
+    padding: 10px 20px;
+    background-color: #ff4000;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    border-radius: 7px;
+}
