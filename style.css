@@ -67,3 +67,25 @@ button{
 button:hover{
     background-color: #00cc88;
 }
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #04012f;
+    padding: 20px 0;
+    text-align: center;
+    color: #00ffaa;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.socials a{
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
