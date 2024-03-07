@@ -20,6 +20,13 @@ body{
     left: 50%;
     transform: translate(-50%);
 }
+.container p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #00ffaa;
+}
+
 .topic{
     text-align: center;
     padding: 20px;
@@ -38,6 +45,7 @@ body{
 #activity-container h1{
     font-size: 1.5rem;
     margin-bottom: 20px;
+    color: #00ffaa;
 }
 
 .new-activity-button{
@@ -45,12 +53,17 @@ body{
     justify-content: center;
     margin-top: 20px;
 }
+
 button{
     padding: 10px 20px;
-    background-color: #ff4000;
-    color: aliceblue;
+    background-color: #00ffaa;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
     border: none;
     cursor: pointer;
     font-size: 0.8rem;
     border-radius: 7px;
+}
+button:hover{
+    background-color: #00cc88;
 }
