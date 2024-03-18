@@ -5,7 +5,7 @@ Feeling bored? This webapp gives you a random activity to do!
 
 ## Project Overview
 
-This project is a web application that suggests random activities for users who are feeling bored. It's a fun and interactive way to discover new hobbies and tasks.
+This project is a web application that suggests random activities for users who are feeling bored. It's a fun and interactive way to discover new hobbies and tasks
 
 ## Features
 
